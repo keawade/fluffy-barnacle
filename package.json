@@ -1,0 +1,27 @@
+{
+  "name": "fluffy-barnacle",
+  "version": "1.0.0",
+  "description": "App that takes in exported playlist from Spotify and provides mp3 download links",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "csvtojson": "^0.4.5",
+    "express": "^4.13.3",
+    "googleapis": "^2.1.6",
+    "hbs": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keawade/fluffy-barnacle.git"
+  },
+  "author": "keawade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keawade/fluffy-barnacle/issues"
+  },
+  "homepage": "https://github.com/keawade/fluffy-barnacle#readme"
+}

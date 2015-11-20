@@ -1,0 +1,13 @@
+<h1>Fluffy Barnacle</h1>
+<h2>Spotify export to MP3 download</h2>
+<p>Use <a href="https://github.com/watsonbox/exportify">exportify</a> from <a href="https://github.com/watsonbox">watsonbox</a> to export your playlist. Then paste the raw CSV data into this text area and click submit to generate a list of MP3 download links.</p>
+<form method="post" action="/links">
+  <textarea name="csvInput" placeholder="﻿﻿Spotify URI,Track Name,Artist Name,Album Name,Disc Number,Track Number,Track Duration (ms),Added By,Added At"></textarea>
+  <input type="submit" value="Submit"></input>
+</form>
+<h2>YouTube to MP3 download links</h2>
+<div id="links">
+  <p>No exported Spotify list submitted</p>
+</div>
+
+<script src="js/geturl.js"></script>
